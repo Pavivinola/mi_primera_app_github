@@ -11,7 +11,7 @@ class LoginScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("BiblioPavini - Login"),
       ),
-      body: SafeArea( // 👈 aquí sin const
+      body: SafeArea( // aquí sin const
         child: Center(
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(16), // este sí puede ser const

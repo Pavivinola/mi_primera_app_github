@@ -1,4 +1,3 @@
-// main.dart
 // Punto de entrada de la app BiblioPavini
 import 'package:flutter/material.dart';
 import 'package:bibliopavini/login_screen.dart';
@@ -13,11 +12,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "BiblioPavini", // Nombre de la app
+      title: "BiblioPavini", // Nombre de la mini-app
 theme: ThemeData(
   useMaterial3: true,
-  colorSchemeSeed: const Color.fromARGB(255, 137, 150, 0), // turquesa
-  brightness: Brightness.light, // o .dark para modo oscuro
+  colorSchemeSeed: const Color.fromARGB(255, 137, 150, 0), // verde clarito
+  brightness: Brightness.light, // modo claro
 ),
       home: const LoginScreen(),
     );

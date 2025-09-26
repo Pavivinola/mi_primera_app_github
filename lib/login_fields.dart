@@ -1,4 +1,3 @@
-// login_fields.dart
 // Contiene los campos de correo y contraseña con validaciones
 import 'package:flutter/material.dart';
 import 'package:bibliopavini/task_screen.dart';

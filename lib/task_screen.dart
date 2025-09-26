@@ -1,4 +1,3 @@
-// task_screen.dart
 // Pantalla de bienvenida que muestra el correo del usuario
 import 'package:flutter/material.dart';
 
@@ -13,7 +12,7 @@ class TaskScreen extends StatelessWidget {
       appBar: AppBar(title: const Text("BiblioPavini")),
       body: Center(
         child: Text(
-          "Bienvenido $email 👋", // Mensaje personalizado
+          "Bienvenido $email 👋", // Mensaje piola de bienvenida
           style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           textAlign: TextAlign.center,
         ),
